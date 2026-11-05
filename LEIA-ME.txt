@@ -1,0 +1,57 @@
+RUA FINANCE - CONTROLE EMPRESARIAL - COMO COLOCAR NO AR E INSTALAR NO CELULAR
+=====================================================================
+
+Esta pasta e um aplicativo web instalavel (PWA). Para o botao "Instalar" aparecer,
+o app precisa estar hospedado em um endereco https:// (isso e regra dos navegadores).
+Nao precisa de servidor nem de programacao: basta enviar a pasta.
+
+OPCAO 1 - Netlify Drop (a mais facil, gratis, 2 minutos)
+  1. Acesse https://app.netlify.com/drop
+  2. Arraste ESTA PASTA (ja descompactada) para a area indicada.
+  3. Voce recebe um endereco tipo https://nome-aleatorio.netlify.app
+  4. Abra esse endereco no celular.
+
+OPCAO 2 - GitHub Pages (gratis)
+  1. Crie um repositorio no GitHub e envie todos os arquivos desta pasta.
+  2. Em Settings > Pages, escolha a branch principal e salve.
+  3. Abra o endereco https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/
+
+OPCAO 3 - Cloudflare Pages / Vercel / qualquer hospedagem estatica
+  Envie a pasta como site estatico (sem comando de build).
+
+INSTALAR NO CELULAR
+  Android (Chrome): abra o endereco > menu (tres pontinhos) > "Instalar app".
+  iPhone (Safari): abra o endereco > botao Compartilhar > "Adicionar a Tela de Inicio".
+  O icone da RUA FINANCE aparece na tela inicial e o app abre em tela cheia, funcionando sem internet.
+
+LANCAMENTO POR VOZ
+  Use o Chrome no Android (ou o app instalado). Na primeira vez o navegador pede
+  permissao para usar o microfone: toque em "Permitir".
+  O reconhecimento de voz do navegador precisa de internet. Sem internet, use o campo
+  "Ou escreva do jeito que falaria" ou o formulario.
+  No iPhone o reconhecimento de voz do Safari e limitado: se nao funcionar, use o
+  microfone do proprio teclado (icone de microfone) no campo de texto.
+
+SEUS DADOS
+  Ficam salvos apenas no celular (armazenamento local do navegador).
+  Va em Mais > Ajustes e backup > "Baixar backup" com frequencia (ex.: toda semana).
+  Para trocar de celular: baixe o backup no aparelho antigo e use "Restaurar de arquivo" no novo.
+  Limpar os dados do navegador apaga o app: sempre mantenha um backup.
+
+ATUALIZAR O APP
+  Substitua os arquivos na hospedagem. Ao abrir com internet o app pega a versao nova.
+
+OBSERVACAO SOBRE OS ICONES
+  Os icones do app foram gerados a partir do monograma R da prancha de identidade enviada.
+  Para nitidez maxima, substitua os arquivos da pasta icons/ pelos arquivos originais
+  do R (PNG/SVG em alta resolucao) mantendo os mesmos nomes e tamanhos (192, 512 e 512 maskable).
+SEUS DADOS ANTERIORES
+  Se voce ja usava a versao anterior no mesmo endereco, seus lancamentos continuam la:
+  o armazenamento interno nao foi alterado. Mesmo assim, baixe um backup antes de atualizar.
+
+VERSAO 2 - NUCLEO FINANCEIRO (CPF / CNPJ / HIBRIDO)
+  - Ao abrir pela primeira vez, seus dados anteriores sao convertidos automaticamente:
+    cria "Conta da empresa" e "Carteira pessoal" com os saldos iniciais que voce ja tinha,
+    e os pro-labores viram transferencias entre as duas. Nenhum lancamento e apagado.
+  - Faca um backup antes de atualizar (Mais > Ajustes > Baixar backup).
+  - Escolha o perfil (CPF, CNPJ ou Hibrido) no topo da tela Inicio.

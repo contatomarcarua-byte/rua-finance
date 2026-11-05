@@ -1,0 +1,2 @@
+Testes automaticos do motor financeiro (calculos, migracao, transferencias, recorrencias, previsao, saude e confianca).
+Requer Node.js. Dentro desta pasta rode:  node harness.js test_motor.js
